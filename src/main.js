@@ -54,13 +54,13 @@ export default class App {
 let app = new App();
 
 console.log("Probando factorial()");
-console.log(app.factorial(5));
+console.log(app.factorial(5)); //Resultado debe ser 120
 
 console.log("Probando convertirAString()");
-console.log(app.convertirAString(6));
+console.log(app.convertirAString(6)); //Resultado debe ser ******
 
 console.log("Probando obtenerDivisibles()");
-console.log(app.obtenerDivisibles(6));
+console.log(app.obtenerDivisibles(6)); //Resultado debe ser 4
 
 console.log("Probando elevar()");
-console.log(app.elevar(3,4));
+console.log(app.elevar(3,4)); //Resultado debe ser 81
