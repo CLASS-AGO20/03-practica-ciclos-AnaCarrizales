@@ -22,6 +22,23 @@ export default class App {
         return resultado;
     }
 
+    obtenerDivisibles(numero)
+    {
+        let i = numero;
+        let divisibles = 0;
+        let a = numero;
+        do
+        {
+            if(a % i == 0)
+            {
+                divisibles = divisibles + 1;
+            }
+            i--;
+        }
+        while(i>=1)
+        return divisibles;
+    }
+
 
 }
 
@@ -31,5 +48,8 @@ console.log("Probando factorial()");
 console.log(app.factorial(5));
 
 console.log("Probando convertirAString()");
-console.log(app.convertirAString(5));
+console.log(app.convertirAString(6));
+
+console.log("Probando obtenerDivisibles()");
+console.log(app.obtenerDivisibles(6));
 
